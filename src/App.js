@@ -32,16 +32,26 @@ function App() {
   },[actualizacionPantalla])
 
   const mostrarDatos=()=>{
-    listaVideosData.listaDatos()
+    try {
+      listaVideosData.listaDatos()
     .then(res=>{
        setDatos(res)
     }).catch(error=>console.log(error))
+    } catch (error) {
+     console.log(error) 
+    }
+    
   }
   const mostarEquipo=()=>{
-    listaEquipoCliente.listaCliente()
+    try {
+      listaEquipoCliente.listaCliente()
     .then(res=>{
        setEquipo(res)
     }).catch(error=>console.log(error))
+    } catch (error) {
+      console.log(error)
+    }
+    
   }
 
   const cambiarImagenVideo=(videoLista)=>{
