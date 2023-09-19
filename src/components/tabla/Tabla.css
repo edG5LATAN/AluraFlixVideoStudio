@@ -1,0 +1,46 @@
+.tabla{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+.tabla tr,td{
+    border: 1px solid white;
+    padding: 5px;
+}
+.tabla tbody{
+  background-color: rgb(53, 40, 40);
+}
+.editar{
+  background-color: green;
+  cursor: pointer;
+  font-size: 21px;
+    font-weight: 500;
+    line-height: 22px;
+}
+.remover{
+  background-color: red;
+  cursor: pointer;
+  font-size: 21px;
+    font-weight: 500;
+    line-height: 22px;
+}
+.editar:hover{
+  background-color: rgb(16, 73, 16);
+}
+.remover:hover{
+  background-color: rgb(102, 6, 6);
+}
+@media (max-width:480px) {
+  tr td{
+    font-size: 12px;
+  }
+  .editar{
+    font-size: 12px;
+  }
+  .remover{
+    font-size: 12px;
+  }
+
+}

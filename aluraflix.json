@@ -1,0 +1,81 @@
+{
+  "datos": [
+    {
+      "id": "1",
+      "categoria": "FrontEnd",
+      "titulo": "aprender reack",
+      "video": "https://youtu.be/FEdqGdtZuwc",
+      "imagen": "https://anincubator.com/wp-content/uploads/2022/08/Diferencias-entre-Frontend-y-Backend-en-el-desarrollo-web.jpg",
+      "descripcion": "aprende a crear un calendario con javascrip html css"
+    },
+    {
+      "id": "2",
+      "categoria": "BackEnd",
+      "titulo": "aprender Spring boot",
+      "video": "https://youtu.be/FqztWwPIrKo",
+      "imagen": "https://geekflare.com/wp-content/uploads/2021/09/Backend-solution.png",
+      "descripcion": "aprende como crear una base de datos de backend con spring boot"
+    },
+    {
+      "id": "3",
+      "categoria": "MY SQL",
+      "titulo": "aprender MY SQL",
+      "video": "https://youtu.be/8J0AoPZMVxA",
+      "imagen": "https://www.tecnologias-informacion.com/sql.png",
+      "descripcion": "todo sobre MYSQL base de datos mas usada"
+    },
+    {
+      "id": "4",
+      "categoria": "Programacion",
+      "imagen": "https://blog.educacionit.com/wp-content/uploads/2018/09/shutterstock-10338536170938-620x354-01.jpg",
+      "titulo": "aprender Programacion",
+      "video": "https://youtu.be/kqfaRah9eYY",
+      "descripcion": "conociendo el mercado de la tecnologia"
+    },
+    {
+      "categoria": "jujutsuKaysen",
+      "titulo": "es la primero pagina",
+      "video": "https://youtu.be/VlDToipKSaQ?si=BZI_XqjtuAklP_ne",
+      "imagen": "https://img.freepik.com/vector-premium/imagen-dibujos-animados-hongo-palabra-hongo_587001-200.jpg?w=2000",
+      "descripcion": "esta es la primera en creacrse en jujutsu kaisen",
+      "id": "5d35ea9b-920c-4f1d-aaf7-10beaa1bfd58"
+    }
+  ],
+  "equipo": [
+    {
+      "id": "1",
+      "codigoSeguridad": "098099",
+      "color": "#28b463",
+      "categoria": "FrontEnd",
+      "descripcion": "Aprende a crear tu propia pagina web y aplicacion"
+    },
+    {
+      "codigoSeguridad": "098099",
+      "color": "#ffff00",
+      "categoria": "Programacion",
+      "descripcion": "Conoce mas sobre el amplio mundo de la programacion",
+      "id": "2"
+    },
+    {
+      "id": "3",
+      "categoria": "MY SQL",
+      "color": "#0652f5",
+      "descripcion": "crea tu base de datos modificada para consultas",
+      "codigoSeguridad": "1235"
+    },
+    {
+      "id": "4",
+      "codigoSeguridad": "098099",
+      "color": "#d35400",
+      "categoria": "BackEnd",
+      "descripcion": "Aprende a crear tu propia API"
+    },
+    {
+      "id": "5",
+      "categoria": "Informatica",
+      "color": "#06f525",
+      "descripcion": "clase de computacion para desarrollo",
+      "codigoSeguridad": "1234"
+    }
+  ]
+}

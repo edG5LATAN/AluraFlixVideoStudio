@@ -1,0 +1,27 @@
+.select{
+    height: 50px;
+font-size: 20px;
+font-weight: 300;
+line-height: 14px;
+letter-spacing: 0em;
+text-align: center;
+}
+.select option{
+    height: 50px;
+font-size: 20px;
+font-weight: 300;
+line-height: 14px;
+letter-spacing: 0em;
+text-align: left;
+padding: 0px 9px;
+}
+@media (max-width:480px){
+    .select{
+        height: 40px;
+    font-size: 16px;
+    }
+    .select option{
+        height: 50px;
+    font-size: 18px;
+    }
+}

@@ -1,0 +1,29 @@
+.botones{
+    font-family: Source Sans Pro;
+font-size: 21px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: center;
+padding: 8px 18px;
+border: none;
+
+}
+.botones:hover{
+    cursor: pointer;
+    background-color: #2A7AE4;
+    color: white;
+}
+@media (max-width:480px){
+    .botones{
+        font-family: Source Sans Pro;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: auto;
+    text-align: center;
+    padding: 5px;
+    border: none;
+    
+    }
+
+}

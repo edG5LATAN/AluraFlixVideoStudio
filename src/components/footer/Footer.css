@@ -1,0 +1,19 @@
+.footer{
+    background-color: black;
+    padding: 25px 0;
+}
+.footer img{
+    height: 60px;
+}
+.footer p{
+    color: white;
+}
+@media (max-width:480px){
+    .footer{
+        background-color: black;
+        padding:18px 0;
+    }
+    .footer img{
+        height: 40px;
+    }
+}

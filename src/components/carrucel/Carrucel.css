@@ -1,0 +1,13 @@
+.carrucel-contenedor{
+    display: grid;
+}
+
+.carrucel{
+    background-color: rgb(5, 5, 90);
+    display: flex;
+    gap: 1em;
+    overflow-y: scroll;
+    overflow-y: hidden;
+    scrollbar-width:thin;
+    padding: 5px;
+}

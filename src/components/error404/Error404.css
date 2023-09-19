@@ -1,0 +1,18 @@
+.error404{
+    height: 650px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../../public/img/principalCard.jpg');
+}
+.error-contenedor{
+    color: white;
+    font-weight: bold;
+    
+}
+.error-button{
+    margin: 10px 0;
+    width: 150px;
+    padding: 4px 0;
+}

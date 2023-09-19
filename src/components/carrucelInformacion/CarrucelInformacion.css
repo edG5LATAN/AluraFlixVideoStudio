@@ -1,0 +1,24 @@
+.carrucelInformacion{
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    gap: 1em;
+}
+.carrucelInformacion h2{
+    color: white;
+    padding: 8px 15px;
+
+}
+.carrucelInformacion p{
+    color: white;
+}
+@media (max-width:480px) {
+    .carrucelInformacion h2{
+        padding: 5px;
+        font-size: 18px;
+    }
+    .carrucelInformacion p{
+        color: white;
+        font-size: 12px;
+    }
+}

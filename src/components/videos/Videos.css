@@ -1,0 +1,39 @@
+.videos{
+    width: 432px;
+height: 260px;
+border-radius: 2px;
+
+}
+.video-contenedor{
+  position: relative;
+}
+.videos:hover{
+  cursor: pointer;
+  transform: scale(1.03);
+  border-style: none;
+}
+.delete-video{
+  top: 10px;
+  right: 15px;
+  color: red;
+  font-weight: bold;
+  position: absolute;
+  padding: 5px;
+}
+.delete-video:hover{
+  cursor: pointer;
+  background: red;
+  color: white;
+  border-radius: 5px;
+}
+@media (max-width:480px) {
+  .videos{
+    width: 260px;
+    height: 180px;
+   border-radius: 1px;
+  }
+  .videos:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+  }
+}

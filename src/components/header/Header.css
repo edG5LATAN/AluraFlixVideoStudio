@@ -1,0 +1,47 @@
+.header{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+}
+.header img{
+    height: 40px;
+}
+.header img:hover{
+ transform: scale(1.03);
+ cursor: pointer;
+}
+.header button{
+   height: 45px;
+   width: 160px; 
+   background-color: black;
+   color: white;
+   font-family: Source Sans Pro;
+font-size: 21px;
+font-weight: 600;
+text-align: center;
+}
+.header button:hover{
+    border: 3px solid #2A7AE4;
+    cursor: pointer;
+}
+.mostrar{
+    display: unset;
+}
+.ocultar{
+    display: none;
+}
+@media (max-width:480px) {
+    .header img{
+        height: 29px;
+    }
+    .header button{
+        height: 35px;
+        width: auto; 
+        padding: 5px;
+     font-size: 18px;
+     font-weight: 600;
+     text-align: center;
+     }
+}
