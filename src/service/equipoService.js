@@ -23,7 +23,7 @@ const eliminarCcliente=(id)=>{
 }
 
 const updateCliente=(codigoSeguridad,color,categoria,descripcion,id)=>{
-    return fetch(`https://apialuraflix-xik5.onrender.com/${id}`,{
+    return fetch(`https://apialuraflix-xik5.onrender.com/equipo/${id}`,{
         method:"PUT",
         headers:{
            "Content-Type":"application/json"
