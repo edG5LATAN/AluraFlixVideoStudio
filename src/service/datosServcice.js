@@ -7,7 +7,7 @@ const listaDatos=()=>{
 }
 
 const crearDatos=(categoria,titulo,video,imagen,descripcion)=>{
-    return fetch("http://localhost:3000/datos",{
+    return fetch("https://apialuraflix-xik5.onrender.com/datos",{
         method:"POST",
         headers:{
            "Content-Type":"application/json"
@@ -23,7 +23,7 @@ const eliminarDatos=(id)=>{
 }
 
 const updateDatos=(categoria,titulo,video,imagen,descripcion,id)=>{
-    return fetch(`http://localhost:3000/datos/${id}`,{
+    return fetch(`https://apialuraflix-xik5.onrender.com/datos/${id}`,{
         method:"PUT",
         headers:{
            "Content-Type":"application/json"
