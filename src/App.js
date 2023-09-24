@@ -10,9 +10,11 @@ import { useEffect, useState } from 'react';
 import { listaVideosData } from './service/datosServcice';
 import { listaEquipoCliente } from './service/equipoService';
 import Error404 from './components/error404/Error404';
+import Cargando from './components/cargando/Cargando';
  
 function App() {
 
+  const[cargando,setcargando]=useState(true);
   const [cambio, setCambio] = useState(true);
   const [actualizacionPantalla,setactualizarPantalla]=useState(true)
   const [datos, setDatos] = useState([])
@@ -25,6 +27,23 @@ function App() {
     "descripcion": "Primeros pasos para adentrarse al mundo de la programacion ",
     "color":"orange"
   }])
+
+
+  useEffect(() => {
+     mostrar()
+  }, [cargando])
+  
+  
+  const mostrar=()=>{
+    equipo.map((dat)=>{
+      datos.filter(dato=>dato.categoria===dat.categoria).length > 0 
+      ?
+      setcargando(true) 
+      :
+      setcargando(false)
+    })
+  }
+
 
   useEffect(() => {
     mostrarDatos()
@@ -88,6 +107,7 @@ function App() {
           <Route path='/' element={<><FondoImagen datosVideo={datosVideo} />
           <CarriucelContenedor datos={datos} 
           equipo={equipo} 
+          cargando={cargando}
           cambiarImagenVideo={cambiarImagenVideo}
           actualizar={()=>actualizar()} />
           </>}/>
@@ -98,6 +118,7 @@ function App() {
           <Route path='/nuevoEquipo' element={<NuevoEquipo equipo={equipo} actualizar={()=>actualizar()}/>}/>
 
           <Route path='*' element={<Error404 />} />
+          <Route path='/cargando' element={<Cargando />} />
         </Routes>
        </BrowserRouter>  
       <Footer />
